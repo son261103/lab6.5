@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+html,body{
+    margin: 1rem;
+    margin: 1rem;
+    background-color: rgb(191, 217, 240);
+}
+
+.logo-menu{
+    display: flex;
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+}
+
+.logo img{
+    width: 5rem;
+    height: 3rem;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 0;
+    margin: 10px 6.7rem;
+    font-weight: bold;
+}
+.menu li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    
+}
+.menu li .eng{
+    color: rgb(255, 255, 255);
+}
+
+.menu li:hover a{
+    background-color: rgb(243, 199, 169);
+}
+
+.menu li:hover .eng{
+    backdrop-color: rgb(173, 250, 207);
+    color:rgb(240, 231, 105);
+    text-decoration:underline;
+}
+
+.img-banner img{
+    width: 116rem;
+    height: 50rem;
+}
+
+.centent-banner{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.centent-banner span{
+    font-size: 80px;
+    color: white;
+}
+
+.centent-banner p{
+    color: white;
+    font-size: 30px;
+}
+/* -------------------------------------------------------------------------------------------- */
+
+.container .row{
+    display: inline-flex;
+    margin: 10%;
+}
+
+
+
+
+
